@@ -1,0 +1,65 @@
+  
+                    Basic Information :  +
+                    in non-linear mode ,the character you set to `IsInControl` will interact with any gameobject with an InteractableCharacter component attached to it.
+                     You must call BeginInteraction(InteractableCharacter) or BeginInteraction(gameObject) to begin dialogue / interaction with a character/gameObject with InteractableCharacter component attached +
+                    If you wish to use collision detection to trigger interaction with a character, then you do not need to call BeginInteraction()
+                    
+                    In linear mode, all characters information is set up when you tell the Interaction component to GenerateActiveDialogueSet() or doReset(),
+                     
+                 
+                    CancelCondition(int) : Cancel a currently processing node specific condition. The int value represents the index of the condition,
+                     
+                 
+                   CancelGeneralCondition(int) : Cancel a currently processing General condition. The int value represents the index of the condition
+                    
+                 
+                   ContinueOnRoute(): in non-linear mode, when you choose a character to interact with either vis collision detection or by calling BeginInteraction(InteractableCharacter), BeginInteraction(gameObject) , the very first route on tour InControl character must call ContinueOnRoute in its node specific condition.
+                    
+                 
+                   GenerateActiveDialogueSet(): will generate the complete interaction data for your scene in linear mode and for characters you specifically target for interaction in non-linear mode
+                    
+                 
+                   GenerateActiveDialogueSet(bool ignoreControllingCharacter): will generate the complete interaction data for your scene in linear mode and for characters you specifically target for interaction in non-linear mode. By setting IngnoreControllingCharacter to true, the data from the controlling character will not be included in the generated interaction data,
+                    
+                 
+                   GoToRoute(int): Tells your currently processed route to go to a branching path. Int value represents the index of the path
+                    
+                 
+                   MoveNext(): Tells the Interaction system to go to the next node/ dialogue/interaction
+                    
+                 
+                   PlaySoundEffectNow():immediately play the voice clip associated with the currently processed node data
+                    
+                 
+                   PlayVoiceClipNow(): Immediately play the voice clip associated with the currently processed node data
+                    
+                 
+                   RemoveControllingCharacter(InteractableCharacter): Allows you to remove turn of IsInControl state of your character by referencing an interactable object
+                    
+                 
+                   SetControllingCharacter(InteractableCharacter): Allows you to set a new witch on the IsInControl state of a character by referencing an interactable object
+                    
+                 
+                   ResetConditions(): Resets the state of your condition to what it was before its function was executed
+                    
+                 
+                   ResetGeneralConditions(): Resets the state of your general condition to what it was before its function was executed
+                    
+                 
+                   ResetTyping(): Manually trigger the stopping and resetting of your text typing
+                    
+                 
+                   SetLanguage(int): Allows you to set a language for your active game by referencing the index of your language as seen in the Language Editor
+                    
+                 
+                   TurnOffCondition(int): Allows you to turn off a Condition by referencing its index
+                    
+                 
+                   TurnOffGeneralCondition(): Allows you to turn off a general Condition by referencing its index
+                    
+                 
+                   TurnOnCondition(): Allows you to turn on a Condition by referencing its index
+                    
+                 
+                   TurnOnGeneralCondition(): Allows you to turn on a general Condition by referencing its index
+                    
