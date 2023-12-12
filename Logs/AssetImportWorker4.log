@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.1.16f1\Editor\Unity.exe
 -name
 AssetImportWorker4
 -projectPath
-C:/Users/528286/lego trial
+C:/Users/528286/lego-trial
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-64968
-Successfully changed project path to: C:/Users/528286/lego trial
-C:/Users/528286/lego trial
+53425
+Successfully changed project path to: C:/Users/528286/lego-trial
+C:/Users/528286/lego-trial
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/Users/528286/lego trial
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 282.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 246.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.16f1 (7321c9670bc2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/528286/lego trial/Assets
+[Subsystems] Discovering subsystems at path C:/Users/528286/lego-trial/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56288
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -74,7 +74,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.023811 seconds.
+Registered in 0.018971 seconds.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -87,39 +87,692 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 271.07 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 236.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.201 seconds
+- Completed reload, in  1.024 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1202ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (1025ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (823ms)
-			LoadAssemblies (111ms)
+		EndReloadAssembly (810ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (163ms)
-				TypeCache.Initialize (162ms)
-					TypeCache.ScanAssembly (160ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (269ms)
+				TypeCache.Initialize (268ms)
+					TypeCache.ScanAssembly (267ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (544ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (454ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (89ms)
-				SetLoadedEditorAssemblies (8ms)
-				RefreshPlugins (271ms)
+				InitializePlatformSupportModulesInManaged (69ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (236ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (124ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012541 seconds.
+Registered in 0.010132 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 237.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.937 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1938ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (1679ms)
+			LoadAssemblies (111ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (346ms)
+				TypeCache.Initialize (333ms)
+					TypeCache.ScanAssembly (328ms)
+				ResolveRequiredComponents (13ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1085ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (43ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (237ms)
+				BeforeProcessingInitializeOnLoad (141ms)
+				ProcessInitializeOnLoadAttributes (560ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5882 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (145.8 KB). Loaded Objects now: 6377.
+Memory consumption went from 0.94 GB to 0.94 GB.
+Total: 3.809600 ms (FindLiveObjects: 0.500300 ms CreateObjectMapping: 0.159500 ms MarkObjects: 3.021000 ms  DeleteObjects: 0.127700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011583 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.453 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1453ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1173ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (316ms)
+				TypeCache.Initialize (303ms)
+					TypeCache.ScanAssembly (296ms)
+				ResolveRequiredComponents (13ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (626ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (361ms)
+				ProcessInitializeOnLoadMethodAttributes (76ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5738 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (106.2 KB). Loaded Objects now: 6393.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 3.726800 ms (FindLiveObjects: 0.540900 ms CreateObjectMapping: 0.158300 ms MarkObjects: 2.979500 ms  DeleteObjects: 0.047300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012273 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 4.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.423 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1423ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1153ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+				TypeCache.Initialize (296ms)
+					TypeCache.ScanAssembly (289ms)
+				ResolveRequiredComponents (13ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (622ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (356ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5738 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (106.3 KB). Loaded Objects now: 6409.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 4.106200 ms (FindLiveObjects: 0.569500 ms CreateObjectMapping: 0.374300 ms MarkObjects: 3.099700 ms  DeleteObjects: 0.061500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011037 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.386 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1387ms)
+		BeginReloadAssembly (158ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1122ms)
+			LoadAssemblies (113ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (306ms)
+				TypeCache.Initialize (293ms)
+					TypeCache.ScanAssembly (287ms)
+				ResolveRequiredComponents (13ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (603ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (354ms)
+				ProcessInitializeOnLoadMethodAttributes (79ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5738 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (106.2 KB). Loaded Objects now: 6425.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 3.941100 ms (FindLiveObjects: 0.536400 ms CreateObjectMapping: 0.224600 ms MarkObjects: 3.104600 ms  DeleteObjects: 0.074400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009217 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.640 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1641ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1351ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (334ms)
+				TypeCache.Initialize (320ms)
+					TypeCache.ScanAssembly (311ms)
+				ResolveRequiredComponents (14ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (752ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (59ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (469ms)
+				ProcessInitializeOnLoadMethodAttributes (83ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5738 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (106.3 KB). Loaded Objects now: 6441.
+Memory consumption went from 0.92 GB to 0.92 GB.
+Total: 4.235900 ms (FindLiveObjects: 0.656900 ms CreateObjectMapping: 0.185700 ms MarkObjects: 3.324900 ms  DeleteObjects: 0.067200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 972579.392146 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_01.prefab
+  artifactKey: Guid(2e821bd9bc6143742806bc737ba56daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_01.prefab using Guid(2e821bd9bc6143742806bc737ba56daf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '310da296de837b1119e4fc7cc5124eda') in 0.535646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Base_04.prefab
+  artifactKey: Guid(e9973a8386e637945b83ec278dd7f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Base_04.prefab using Guid(e9973a8386e637945b83ec278dd7f3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa395ee9acfd411826c2a009e3986773') in 0.071041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_05.fbx
+  artifactKey: Guid(a0bb224626de27d498646554c6ba0c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_05.fbx using Guid(a0bb224626de27d498646554c6ba0c36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a739350cf0fa9c5ef49991a7df36de9') in 0.060084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_01.fbx
+  artifactKey: Guid(df5a68e596b99864fab26dd3c10986ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_01.fbx using Guid(df5a68e596b99864fab26dd3c10986ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f06424c23b26945a38ffcd5ab4d42b') in 0.034014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Environments/SM_Env_PondGround_01.prefab
+  artifactKey: Guid(c234e5dbb5bf41f44b4c23242f473abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Environments/SM_Env_PondGround_01.prefab using Guid(c234e5dbb5bf41f44b4c23242f473abf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02709103920315aaf6f2ab0dc1000f72') in 0.037518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Half_02.fbx
+  artifactKey: Guid(3a7328d74cc738c4c80145f2ede40717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Half_02.fbx using Guid(3a7328d74cc738c4c80145f2ede40717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a40e69493087dbb373d52d03cfec5a') in 0.033096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Graffiti_Ground_05.prefab
+  artifactKey: Guid(225be330fbd18c64ca86a8d1d52f2002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Graffiti_Ground_05.prefab using Guid(225be330fbd18c64ca86a8d1d52f2002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '650c86be75ea757efcd04a1e58fe1db3') in 0.046067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_08.prefab
+  artifactKey: Guid(d04aa01cee4e76b4e828b49f2b83f8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_08.prefab using Guid(d04aa01cee4e76b4e828b49f2b83f8a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5134b39dee157a7a0ebeda33d7930d12') in 0.056531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Tube_01.prefab
+  artifactKey: Guid(d497d8700b2ade64ca2fab00c0098cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Tube_01.prefab using Guid(d497d8700b2ade64ca2fab00c0098cdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b16946ae408874b5f85ba04f64a7ee') in 0.057217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Snow/SM_Env_Snow_GroundMound_01.prefab
+  artifactKey: Guid(647b719a58bf2434789128b75e810cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Snow/SM_Env_Snow_GroundMound_01.prefab using Guid(647b719a58bf2434789128b75e810cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3083f43b78875490e363ccb7a6b44400') in 0.029777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Snow/SM_Env_Snow_GroundMound_05.prefab
+  artifactKey: Guid(fb8a2dbb2c07b3b43aae8e4a9989aa7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Snow/SM_Env_Snow_GroundMound_05.prefab using Guid(fb8a2dbb2c07b3b43aae8e4a9989aa7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15526f9de8e22f3b3034267730b8a02') in 0.027568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_01.prefab
+  artifactKey: Guid(534497d369ca4de4aaeb048a9211449c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_01.prefab using Guid(534497d369ca4de4aaeb048a9211449c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d9940fa505245d9af8862ab5b17503') in 0.055389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Graffiti_Ground_05.fbx
+  artifactKey: Guid(decc45b35a862a044a632b05e6d386e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Graffiti_Ground_05.fbx using Guid(decc45b35a862a044a632b05e6d386e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3604825db70615496f281de9a93cfd4d') in 0.035696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Environments/SM_Env_PondGround_02.prefab
+  artifactKey: Guid(995d4e49c487c3949b4f44e01c66e1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Environments/SM_Env_PondGround_02.prefab using Guid(995d4e49c487c3949b4f44e01c66e1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c2bceebd7be3282fe6ee79357f162b4') in 0.030356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Floating_Platform_01.prefab
+  artifactKey: Guid(42eeb2cb84e945f48bfbf7e4a450d54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Floating_Platform_01.prefab using Guid(42eeb2cb84e945f48bfbf7e4a450d54b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea470e56e04a0bd19d3bab061d3595c') in 0.060644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Environments/SM_Env_GroundMound_01.prefab
+  artifactKey: Guid(f0d166010146cdc4eb7c784d54eda812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Environments/SM_Env_GroundMound_01.prefab using Guid(f0d166010146cdc4eb7c784d54eda812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f87d41377ceb6788c32125cfe8a6089c') in 0.050253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Models/SM_Env_GroundMound_03.fbx
+  artifactKey: Guid(cd5474647a365754a85c81ead1e8b565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Models/SM_Env_GroundMound_03.fbx using Guid(cd5474647a365754a85c81ead1e8b565) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02848bb443c653d295a87e38d7c1bce') in 0.035005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Environments/SM_Env_GroundMound_05.prefab
+  artifactKey: Guid(d71188ec11ee08d48855bf0b7ae87c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Environments/SM_Env_GroundMound_05.prefab using Guid(d71188ec11ee08d48855bf0b7ae87c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8d23fe68f2fcb1bcaff0000235c702') in 0.021703 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Base_02.prefab
+  artifactKey: Guid(20cbddd4768d3b84e96c9d4651750cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Base_02.prefab using Guid(20cbddd4768d3b84e96c9d4651750cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923b6edae0ffccb2d03b9058e8139d19') in 0.054098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_02.prefab
+  artifactKey: Guid(075662da41c3dea46a40c0917389e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_02.prefab using Guid(075662da41c3dea46a40c0917389e28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3613d7651c477b370d9a6147fa6235a') in 0.058806 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Base_04.fbx
+  artifactKey: Guid(3ea75cd01f9a8af41aeae73287734a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Base_04.fbx using Guid(3ea75cd01f9a8af41aeae73287734a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5dc49ac7524a19b4f941c8e5d7bc539') in 0.035428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_07.prefab
+  artifactKey: Guid(041197ccf8c034447a687e080433d2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_07.prefab using Guid(041197ccf8c034447a687e080433d2a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e0839db770f7c82923297670fb2870') in 0.056987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Floating_Platform_01.fbx
+  artifactKey: Guid(d54283d2d66037144a5d9fcab47cceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Floating_Platform_01.fbx using Guid(d54283d2d66037144a5d9fcab47cceb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63e88923bdbeec1118db7e567c633ba') in 0.034107 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Half_03.prefab
+  artifactKey: Guid(bc32377f7b002c2408c36cbf8dcff58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Half_03.prefab using Guid(bc32377f7b002c2408c36cbf8dcff58c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85730757bf395cf7261fe7458d513e2') in 0.059501 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Environments/SM_Env_GroundMound_02.prefab
+  artifactKey: Guid(38e9f74e7ad2817489313b84c0695d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonKnights/Prefabs/Environments/SM_Env_GroundMound_02.prefab using Guid(38e9f74e7ad2817489313b84c0695d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3418c753586b7b893bbc7ffffcc38ef3') in 0.021851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Half_04.fbx
+  artifactKey: Guid(5859fe6f8d3f05444b03672adc0226c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Half_04.fbx using Guid(5859fe6f8d3f05444b03672adc0226c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c5e7e3a1bfd9db67be807f4c2c8e6a8') in 0.034218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Tube_01.fbx
+  artifactKey: Guid(9cbfc11418e53cd41b420cfb2e836578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Tube_01.fbx using Guid(9cbfc11418e53cd41b420cfb2e836578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40a586e00e78a51bffcea388666c0016') in 0.032649 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Supports_01_Convex 1.asset
+  artifactKey: Guid(8c0094db14cf197428725cb21ff20d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Supports_01_Convex 1.asset using Guid(8c0094db14cf197428725cb21ff20d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79474f4e0e3fef48bd4c9e31f8432606') in 0.042282 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_04.prefab
+  artifactKey: Guid(5e4bdc96038d5424fbd9029b5ecaea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_04.prefab using Guid(5e4bdc96038d5424fbd9029b5ecaea9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602dab91734928d106468c5572e70aeb') in 0.044212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 154.999360 seconds.
+  path: Assets/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2R3MjItdGlnZXItYWV3LTAyLWwtMDItam9iMTQ2NF8xLnBuZw
+  artifactKey: Guid(ecf8b831f8d685244bafb79c2dbd9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2R3MjItdGlnZXItYWV3LTAyLWwtMDItam9iMTQ2NF8xLnBuZw using Guid(ecf8b831f8d685244bafb79c2dbd9f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '811db091e6ee145fdedd8f0e80728457') in 0.010155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.968047 seconds.
+  path: Assets/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2R3MjItdGlnZXItYWV3LTAyLWwtMDItam9iMTQ2NF8xLnBuZw/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2R3MjItdGlnZXItYWV3LTAyLWwtMDItam9iMTQ2NF8xLnBuZw.png
+  artifactKey: Guid(e6d226e2888dd224baa6ef450cff5b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2R3MjItdGlnZXItYWV3LTAyLWwtMDItam9iMTQ2NF8xLnBuZw/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2R3MjItdGlnZXItYWV3LTAyLWwtMDItam9iMTQ2NF8xLnBuZw.png using Guid(e6d226e2888dd224baa6ef450cff5b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a7b7a8285c2e81f5dcafa2f95dbdea') in 0.062371 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010621 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.465 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1465ms)
+		BeginReloadAssembly (159ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (1200ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (307ms)
+				TypeCache.Initialize (293ms)
+					TypeCache.ScanAssembly (286ms)
+				ResolveRequiredComponents (15ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (653ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (57ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5738 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (107.3 KB). Loaded Objects now: 6511.
+Memory consumption went from 0.93 GB to 0.93 GB.
+Total: 4.428000 ms (FindLiveObjects: 0.683300 ms CreateObjectMapping: 0.260500 ms MarkObjects: 3.412400 ms  DeleteObjects: 0.070600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 74.699682 seconds.
+  path: Assets/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2R3MjItdGlnZXItYWV3LTAyLWwtMDItam9iMTQ2NF8xLnBuZw/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2R3MjItdGlnZXItYWV3LTAyLWwtMDItam9iMTQ2NF8xLnBuZw.png
+  artifactKey: Guid(e6d226e2888dd224baa6ef450cff5b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2R3MjItdGlnZXItYWV3LTAyLWwtMDItam9iMTQ2NF8xLnBuZw/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL2R3MjItdGlnZXItYWV3LTAyLWwtMDItam9iMTQ2NF8xLnBuZw.png using Guid(e6d226e2888dd224baa6ef450cff5b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '630da8a970117c31b4e01a184073cfd5') in 0.068849 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008646 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.432 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1432ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (1184ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+				TypeCache.Initialize (282ms)
+					TypeCache.ScanAssembly (275ms)
+				ResolveRequiredComponents (13ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (657ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5738 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (106.3 KB). Loaded Objects now: 6527.
+Memory consumption went from 0.93 GB to 0.93 GB.
+Total: 4.541400 ms (FindLiveObjects: 0.576900 ms CreateObjectMapping: 0.174700 ms MarkObjects: 3.711400 ms  DeleteObjects: 0.077400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

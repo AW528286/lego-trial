@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.1.16f1\Editor\Unity.exe
 -name
 AssetImportWorker5
 -projectPath
-C:/Users/528286/lego trial
+C:/Users/528286/lego-trial
 -logFile
 Logs/AssetImportWorker5.log
 -srvPort
-64968
-Successfully changed project path to: C:/Users/528286/lego trial
-C:/Users/528286/lego trial
+53425
+Successfully changed project path to: C:/Users/528286/lego-trial
+C:/Users/528286/lego-trial
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/Users/528286/lego trial
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 285.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 237.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.1.16f1 (7321c9670bc2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/528286/lego trial/Assets
+[Subsystems] Discovering subsystems at path C:/Users/528286/lego-trial/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,7 +63,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56716
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -74,7 +74,7 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.16f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.021567 seconds.
+Registered in 0.019440 seconds.
 Native extension for UWP target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
@@ -87,39 +87,240 @@ Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 271.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 238.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.195 seconds
+- Completed reload, in  1.040 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1195ms)
-		BeginReloadAssembly (109ms)
+	ReloadAssembly (1040ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (824ms)
-			LoadAssemblies (107ms)
+		EndReloadAssembly (820ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (167ms)
-				TypeCache.Initialize (166ms)
-					TypeCache.ScanAssembly (164ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (267ms)
+				TypeCache.Initialize (267ms)
+					TypeCache.ScanAssembly (265ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (542ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (463ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (91ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (272ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (121ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				InitializePlatformSupportModulesInManaged (70ms)
+				SetLoadedEditorAssemblies (5ms)
+				RefreshPlugins (239ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (99ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.012242 seconds.
+Registered in 0.010028 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\528286\lego-trial\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 252.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.068 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2069ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1798ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (357ms)
+				TypeCache.Initialize (342ms)
+					TypeCache.ScanAssembly (336ms)
+				ResolveRequiredComponents (15ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (1173ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (252ms)
+				BeforeProcessingInitializeOnLoad (152ms)
+				ProcessInitializeOnLoadAttributes (609ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 5.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5882 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (145.7 KB). Loaded Objects now: 6377.
+Memory consumption went from 0.93 GB to 0.93 GB.
+Total: 6.274100 ms (FindLiveObjects: 0.873300 ms CreateObjectMapping: 0.155300 ms MarkObjects: 4.977600 ms  DeleteObjects: 0.266300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 972580.023807 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Floating_Platform_01_Convex.asset
+  artifactKey: Guid(0ae88451fe5a3cf4c8222a32e4bbebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Floating_Platform_01_Convex.asset using Guid(0ae88451fe5a3cf4c8222a32e4bbebb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4229e74ff5b93d2c656163e57ac583f4') in 0.159839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_06.fbx
+  artifactKey: Guid(3e1e5662842cda2418acef1294ddaf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_06.fbx using Guid(3e1e5662842cda2418acef1294ddaf56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfb3ba520d80cc82957ee17ff53cbac') in 0.279717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Supports_01_Convex.asset
+  artifactKey: Guid(06a512f9ba188f3459862cda3a2e4740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Supports_01_Convex.asset using Guid(06a512f9ba188f3459862cda3a2e4740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca9f0ccf9b22221846a15a4f2ee2ea41') in 0.028453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_03.prefab
+  artifactKey: Guid(9e9f8f40d066f5a4791df15af8ea53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_03.prefab using Guid(9e9f8f40d066f5a4791df15af8ea53ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba3f8840d60dca80b06b8c906f4c3aab') in 0.079334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Models/SM_Env_GroundMound_Fuji_01.fbx
+  artifactKey: Guid(c3bf7cde1e7a8de42973b051c811e564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Models/SM_Env_GroundMound_Fuji_01.fbx using Guid(c3bf7cde1e7a8de42973b051c811e564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5171f429ea66f2b2028350772cc51592') in 0.035373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Snow/SM_Env_Snow_GroundMound_02.prefab
+  artifactKey: Guid(437277be89472ba418c0ee9346100b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Snow/SM_Env_Snow_GroundMound_02.prefab using Guid(437277be89472ba418c0ee9346100b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0fb7e0c0b1147297457b99784104cf3') in 0.026291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Supports_01.fbx
+  artifactKey: Guid(f6d60341393340448b6e46266675f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Supports_01.fbx using Guid(f6d60341393340448b6e46266675f941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c6728ee5a5748d7b1b5f176b48ccb9') in 0.037418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_03.fbx
+  artifactKey: Guid(d714eea6d1b852c47904f0fe9f3f1b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_03.fbx using Guid(d714eea6d1b852c47904f0fe9f3f1b29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689129501c6c0b36943bb234f4e4da7f') in 0.032167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Base_02.fbx
+  artifactKey: Guid(1ac2320135d34294188e9ecca3e525ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Base_02.fbx using Guid(1ac2320135d34294188e9ecca3e525ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0811c3da19d48b7b7fffc38e00ff28cc') in 0.028134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Half_05.prefab
+  artifactKey: Guid(2d7c7ed92e45db34992dafca4ced6ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Half_05.prefab using Guid(2d7c7ed92e45db34992dafca4ced6ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009c03eeb054f1293be94e1c05d2896f') in 0.052700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Environments/SM_Env_GroundMound_04.prefab
+  artifactKey: Guid(537a3c36645b45141a5e7efa507bb6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Environments/SM_Env_GroundMound_04.prefab using Guid(537a3c36645b45141a5e7efa507bb6dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c07b71275c86dbe3e221bb40dad052d') in 0.023013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Half_02.prefab
+  artifactKey: Guid(ac86e58f7706ca04a9df3f348cf148bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Half_02.prefab using Guid(ac86e58f7706ca04a9df3f348cf148bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e9eb7b294ff826c2a321fe468eb39e9') in 0.053979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Half_05.fbx
+  artifactKey: Guid(8fd01a90b8e6688469d7ee55cd007224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Half_05.fbx using Guid(8fd01a90b8e6688469d7ee55cd007224) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2f66d4b46768ae23171bd5c70af744') in 0.038949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Half_03.fbx
+  artifactKey: Guid(fd8312b5e43c2014995f895afd539159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_Half_03.fbx using Guid(fd8312b5e43c2014995f895afd539159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd241c912246d53b202deedf49e753c6b') in 0.035728 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Models/SM_Env_PondGround_02.fbx
+  artifactKey: Guid(537b95a10385ec04a87cda2f91a23477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Models/SM_Env_PondGround_02.fbx using Guid(537b95a10385ec04a87cda2f91a23477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822b25e9672f201216f3fb8d20c157bf') in 0.037989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Models/Snow/SM_Env_Snow_GroundMound_02.fbx
+  artifactKey: Guid(2ad0ee127a43c604e830f375d668a1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Models/Snow/SM_Env_Snow_GroundMound_02.fbx using Guid(2ad0ee127a43c604e830f375d668a1f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee943c0a508b7a55237118818d3dea32') in 0.035119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Models/Snow/SM_Env_Snow_GroundMound_04.fbx
+  artifactKey: Guid(9257c4080404a4a4ab2c11c8745b9b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Models/Snow/SM_Env_Snow_GroundMound_04.fbx using Guid(9257c4080404a4a4ab2c11c8745b9b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84583fca66f8a74d1dfbaa3b8f25a3e5') in 0.035265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_04.fbx
+  artifactKey: Guid(8fca6f12150c0534896a33979a0428e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Models/SM_Env_Ground_Tile_04.fbx using Guid(8fca6f12150c0534896a33979a0428e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b2eda3a74266f4d6adb2e89a4ff3b9') in 0.040490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Environments/SM_Env_GroundMound_02.prefab
+  artifactKey: Guid(beba9d81b4a57ba4ba6efd32c5f3e818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Environments/SM_Env_GroundMound_02.prefab using Guid(beba9d81b4a57ba4ba6efd32c5f3e818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ff4127f86ed091bfce63ac50631169') in 0.021871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Supports_01.prefab
+  artifactKey: Guid(025591c86f61ab9428b2b7dcf868ef4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Supports_01.prefab using Guid(025591c86f61ab9428b2b7dcf868ef4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c82dab6cdb1d279c7af8355a0884520') in 0.049946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Base_03.prefab
+  artifactKey: Guid(5d0aa5d06a7a4cf4695f9803bdda45d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSciFiCity/Prefabs/Environments/SM_Env_Ground_Tile_Base_03.prefab using Guid(5d0aa5d06a7a4cf4695f9803bdda45d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fbaf2b29f82716b04345f11dc67f43f') in 0.069615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Snow/SM_Env_Snow_GroundMound_04.prefab
+  artifactKey: Guid(bcd6940984ec14c48b89469946f2ea15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SharedAssets/Packages/LowPoly/PolygonSamurai/Prefabs/Snow/SM_Env_Snow_GroundMound_04.prefab using Guid(bcd6940984ec14c48b89469946f2ea15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '836965289ef0644cc3cb5332c2f2c373') in 0.024304 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
